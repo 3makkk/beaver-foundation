@@ -1,0 +1,27 @@
+{
+  "name": "beaver-foundation",
+  "authors": [
+    "Sven Friedemann <sven@erstellbar.de>"
+  ],
+  "description": "Override Beaver Builder grid with Foundation 6 grid",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "beaver",
+    "builder",
+    "foundation",
+    "zurb",
+    "grid"
+  ],
+  "license": "MIT",
+  "homepage": "https://erstellbar.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/components",
+    "test",
+    "tests"
+  ]
+}

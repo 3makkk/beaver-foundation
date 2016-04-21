@@ -1,0 +1,15 @@
+.fl-row-content.fl-row-fixed-width {
+
+  .fl-col {
+    @each $breakpoint, $gutter in $grid-column-gutter {
+      @include breakpoint($breakpoint) {
+        padding: 0 rem-calc($gutter /2);
+      }
+    }
+
+    .row {
+      @include grid-row($behavior: nest);
+      max-width: none;
+    }
+  }
+}
